@@ -2,7 +2,7 @@
 
 # PHILIPPINE IC DESIGN BOOTCAMP 2026!
 
-based on this https://github.com/jar/ttsky25a_vga_glyph_mode/blob/main/docs/info.md
+based on this https://tinytapeout.com/chips/ttsky25a/tt_um_vga_glyph_mode
 
 
 

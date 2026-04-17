@@ -1,8 +1,14 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg) ![](../../workflows/test/badge.svg) ![](../../workflows/fpga/badge.svg)
 
-# Tiny Tapeout Verilog Project Template
+# PHILIPPINE IC DESIGN BOOTCAMP 2026!
 
-- [Read the documentation for project](docs/info.md)
+based on this https://github.com/jar/ttsky25a_vga_glyph_mode/blob/main/docs/info.md
+
+
+
+https://github.com/user-attachments/assets/9ca48449-560f-42c0-9914-d90459e284e1
+
+
 
 ## What is Tiny Tapeout?
 

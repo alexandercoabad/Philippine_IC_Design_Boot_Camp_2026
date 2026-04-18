@@ -15,7 +15,7 @@ https://github.com/user-attachments/assets/9ca48449-560f-42c0-9914-d90459e284e1
 
 <img width="857" height="600" alt="Screenshot 2026-04-17 at 7 18 04 PM" src="https://github.com/user-attachments/assets/81b6f3a3-f437-4088-bbf0-0fa62c83edd5" />
 
-
+link to 3D viewer: https://gds-viewer.tinytapeout.com/?model=https://alexandercoabad.github.io/Philippine_IC_Design_Boot_Camp_2026/tinytapeout.oas&pdk=sky130A
 
 
 ## Set up your Verilog project

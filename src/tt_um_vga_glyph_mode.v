@@ -74,15 +74,11 @@ module tt_um_vga_glyph_mode(
 	);
 
 	// there are 51 glyphs
-	//wire [5:0] glyph_index = {xb[2] ^ yb[0], xb[0] ^ yb[1], xb[1] ^ yb[2], xb[4] ^ yb[3], xb[3] ^ yb[4]} // [0,31]
-	//	+ {1'b0, xb[5] ^ yb[5], xb[6] ^ yb[0], xb[0] ^ yb[1], xb[1] ^ yb[2]} // [0,15]
-	//	+ {1'b0, x[6:3]} // [0,15]
-	//	+ {1'b0, t & frame[7], t & frame[6], t & frame[5], t & frame[4] & s}; // [0,15]
+	wire [5:0] glyph_index = {xb[2] ^ yb[0], xb[0] ^ yb[1], xb[1] ^ yb[2], xb[4] ^ yb[3], xb[3] ^ yb[4]} // [0,31]
+		+ {1'b0, xb[5] ^ yb[5], xb[6] ^ yb[0], xb[0] ^ yb[1], xb[1] ^ yb[2]} // [0,15]
+		+ {1'b0, x[6:3]} // [0,15]
+		+ {1'b0, t & frame[7], t & frame[6], t & frame[5], t & frame[4] & s}; // [0,15]
 
-	//wire [5:0] glyph_index = (yb + xb) % 6'd19;
-	//wire [5:0] glyph_index = (yb + xb) % 6'd30;
-	wire [5:0] glyph_index = (yb + xb) % 6'd63;
-	
 	wire [1:0] a = xb[1:0];
 	wire [3:0] b = xb[5:2];
 	wire [2:0] d = xb[3:2] + 2'd3;
@@ -120,4 +116,3 @@ module tt_um_vga_glyph_mode(
 	end
 
 endmodule
-
